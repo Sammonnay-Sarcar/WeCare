@@ -14,24 +14,31 @@
 </head>
 <body>
     <div class="navbar">
-        <div class="nav">
-          <i class="ri-menu-line toggle-button" id="toggle-button"></i>
-          <h3 class="name">We Care</h3>
-          <ul class="navlist" id="nav-list">
-            <li class="listItem">
-              <a href="index.html" class="home">Home</a>
-            </li>
-            <li class="listItem">About</li>
-            <li class="listItem">
-              <a href="contact.html" class="contact">Contact</a>
-  
-            </li>
-            <li class="listItem">We-Help</li>
-            <i class="ri-close-line close-button" id="close-button"></i>
-          </ul>
-        </div>
-        
+      <div class="nav">
+        <i class="ri-menu-line toggle-button" id="toggle-button"></i>
+        <h3 class="name">We Care</h3>
+        <ul class="navlist" id="nav-list">
+          <li class="listItem nav-item active"><a href="./index.html" class="about">Home</a></li>
+
+          <li class="listItem nav-item">
+            <a href="./About.html" class="about">About</a>
+          </li>
+          <li class="listItem nav-item">
+            <a href="./contact.html" class="about">Contact</a>
+          </li>
+          <li class="listItem">
+            <a  id="weHelp" class="about">We-Help</a>
+            <ul  class="further" id="further">
+              <li class="listItem dropList" ><a href="./donation.html" class="about">We Donate</a></li>
+              <li class="listItem dropList"><a href="./BookCenter.html" class="about">Book Slot</a></li>
+            </ul>
+          </li>
+
+          <i class="ri-close-line close-button" id="close-button"></i>
+        </ul>
       </div>
+      <button class="sign-in">Sign Up/Sign-in</button>
+    </div>
 
     <header class="heading">
     <div class="container">
@@ -113,5 +120,41 @@
   function mouseDown(){
     alert("You have successfully submitted your form.")
   }
+  const toggleButton = document.getElementById("toggle-button");
+const closeButton = document.getElementById("close-button");
+const navList = document.getElementById("nav-list");
+
+if(toggleButton)
+{
+    toggleButton.addEventListener("click", ()=>{
+    navList.classList.add("show")
+    })
+}
+if(closeButton)
+{
+    closeButton.addEventListener("click", ()=>{
+        navList.classList.remove("show");
+    })
+}
+const navItems = document.querySelectorAll(".navItem");
+for(var i=0;i<navItems.length;i++)
+{
+    navItems[i].addEventListener("click", ()=>{
+        navList.classList.remove("show");
+    })
+}
+
+const weHelpButton= document.getElementById("weHelp");
+weHelpButton.addEventListener("click", ()=>{
+    const furtherOption= document.getElementById("further");
+    furtherOption.classList.add("showDrop");
+});
+const navItem_1 = document.querySelectorAll(".dropList");
+for(var i=0;i<navItem_1.length;i++)
+{
+    navItem_1[i].addEventListener("click", ()=>{
+        navList.classList.remove("show");
+    })
+}
 </script>
 </html>
