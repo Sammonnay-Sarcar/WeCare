@@ -257,3 +257,7 @@ body{
     font-size: var(--small);
     transform: rotate(-180deg);
 }
+.contact{
+    text-decoration: none;
+    color: black;
+}

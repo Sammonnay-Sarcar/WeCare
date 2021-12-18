@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    overflow-y: auto;
+}
+header{
+    height: 7vh;
+    width: 100vw;
+    background-color: rgba(41, 2, 2, 1);
+}
+.wedonate{
+    display: inline;
+    float: left;
+    margin-top: 10px;
+    margin-left: 150px;
+
+}
+.we{
+    font-size: 30px;
+    color: white;
+
+}
+.donate{
+    font-size: 30px;
+    color: yellow;
+
+}
+.phno{
+    display: inline;
+    float: right;
+    margin-top: 10px;
+    margin-right: 150px;
+}
+.phone{
+    color: white;
+    font-size: 30px;
+}
+.number{
+    color: yellow;
+    font-size: 30px;
+}
+main{
+    background-image: url("give.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 63vh;
+
+    background-repeat: no-repeat;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.main1{
+    width: 30vw;
+    height: 40vh;
+}
+.main1 h1{
+    color: white;
+    
+}
+.main1 h2{
+    color: yellow;
+    
+}
+.main1 p{
+    color: white;
+    
+}
+.main2{
+    width: 25vw;
+    height: 61vh;
+    background-color: yellow;
+    border-radius: 5px;
+}
+.main2 h1{
+    text-align: center;
+}
+.main2 p{
+    text-align: center;
+}
+#first{
+    margin: 10px;
+    margin-left: 70px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    align-self: center;
+}
+#second{
+    margin: 10px;
+    margin-left: 70px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    align-self: center;
+}
+#email{
+    margin: 10px;
+    margin-left: 70px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    align-self: center;
+}
+#phone{
+    margin: 10px;
+    margin-left: 70px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    align-self: center;
+}
+#amount{
+    margin: 10px;
+    margin-left: 70px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    align-self: center;
+}
+#payment{
+    margin: 10px;
+    margin-left: 70px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    align-self: center;
+}
+#pay{
+    margin-top: 2px;
+    margin-left: 70px;
+    margin-right: 20px;
+
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+}
+#pay:hover{
+    opacity: 0.5;
+}
+footer{
+    height: 30vh;
+    width:100vw;
+    background-color: whitesmoke
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box1{
+    margin-top: 40px;
+    height: 20vh;
+    width:20vw;
+    background-color: white;
+    margin-right: 80px;
+    text-align: center;
+}
+.box2{
+    margin-top: 40px;
+    height: 20vh;
+    width: 20vw;
+    background-color: white;
+    text-align: center;
+}
+.box3{
+    margin-top: 40px;
+    height: 20vh;
+    width: 20vw;
+    background-color: white;
+    margin-left: 80px;
+    text-align: center;
+}
+#caring{
+    color: rgb(145, 145, 12);
+}
+#giving{
+    color: rgb(145, 145, 12)
+}
+#medicine{
+    color: rgb(145, 145, 12)
+}
