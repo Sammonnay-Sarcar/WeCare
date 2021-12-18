@@ -1,0 +1,55 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  border: 0%;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url(./images/safe.jpeg);
+  background-position: center;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.dash {
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: 400;
+  transform: translate(-10px, 20px);
+  font-size: 25px;
+
+  padding: 50px;
+  color: white;
+  background-color: rgba(49, 49, 43, 0.445);
+  background-position: center;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.list {
+  color: rgb(42, 224, 224);
+  font-family: "Raleway";
+}
+
+.list {
+  text-align: center;
+  transform: translateY(40px);
+}
+
+.form {
+  padding: 50px;
+}
+
+#btn-1 {
+  width: 120px;
+  transform: translateY(50px);
+}
+
+#filters {
+  padding: 30px;
+}
+
+#pages {
+  transform: translate(500px, 30px);
+}
