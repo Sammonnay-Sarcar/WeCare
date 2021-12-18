@@ -1,0 +1,277 @@
+/* font-1 */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600;800&display=swap");
+/* font-2 */
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bree+Serif&family=Fira+Sans:wght@500&family=Noto+Sans+Bengali:wght@700&family=Playfair+Display:wght@800;900&family=Roboto:wght@500&family=Zen+Antique&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bree+Serif&family=Fira+Sans:wght@500&family=Lobster&family=Noto+Sans+Bengali:wght@700&family=Playfair+Display:wght@800;900&family=Roboto:wght@500&family=Zen+Antique&display=swap");
+
+* {
+  --extraBold: 800;
+  --bold: 600;
+  --regular: 400;
+  --light: 300;
+  --thin: 100;
+  --extraLarge: 115px;
+  --large: 100px;
+  --medium: 30px;
+  --small: 20px;
+  --font: "Raleway", sans-serif;
+  --mini: 15px;
+
+  /* colours */
+  --green: #02c39a;
+
+  margin: 0%;
+}
+
+/* Background */
+body {
+  margin: 0%;
+  background: url("./images/virus.jpeg");
+  /* background-image: url("./cover-1.jpg"); */
+  background-attachment: fixed;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.name {
+  font-size: var(--medium);
+  font-weight: var(--bold);
+  font-family: var(--font);
+  color: #519259;
+  margin: 0;
+  display: inline;
+}
+.listItem {
+  font-size: var(--small);
+  font-weight: var(--regular);
+  font-family: var(--font);
+  margin: 0 10px;
+  color: aliceblue;
+}
+.listItem:hover {
+  text-shadow: 0px 0px 7px red;
+  transition: 0.5s;
+}
+
+.navlist {
+  list-style-type: none;
+  display: inline-flex;
+  margin: 0;
+  position: relative;
+}
+.nav {
+  box-sizing: border-box;
+  padding: 10px;
+  display: inline-block;
+  width: 75vw;
+}
+.navbar {
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.container-1 {
+  background-color: rgba(22, 21, 21, 0.4);
+  display: inline-flex;
+  width: 100%;
+  height: 50px;
+
+  padding-top: 50px;
+  padding-bottom: 210px;
+}
+
+/* heading */
+.heading {
+  transform: translateX(600px);
+  color: white;
+  font-weight: 10%;
+  font-size: 70px;
+
+  display: flex;
+  font-family: "Raleway";
+}
+
+/* slogan */
+.moto {
+  color: #ffbe0b;
+  text-align: center;
+  transform: translate(200px, 100px);
+  width: 520px;
+  font-family: "Raleway", serif;
+  font-size: var(--mini);
+}
+
+/* organization */
+
+.subhead-1 {
+  color: #9ef01a;
+  background-color: rgba(22, 21, 21, 0.4);
+  display: inline-block;
+  transform: translateX(500px);
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#organization {
+  margin: 0;
+  border: 0;
+  width: 100%;
+  font-family: "Raleway";
+}
+
+/* card-1 */
+
+#card-1 {
+  transform: translate(430px, 50px);
+  width: 1500px;
+
+  background-color: rgba(49, 51, 49, 0.601);
+  color: white;
+
+  border: rgb(255, 255, 255) solid 2px;
+  padding: 30px;
+  padding-right: 50px;
+}
+
+#btn-1 {
+  font-weight: 10%;
+}
+
+.read {
+  text-decoration: none;
+  color: white;
+}
+.link-1 {
+  color: var(--green);
+}
+#logo {
+  transform: translateX(90px);
+}
+
+#image-2 {
+  width: 24%;
+  transform: translate(-30px, 60px);
+}
+
+.subhead-2 {
+  color: #9ef01a;
+  background-color: rgba(22, 21, 21, 0.4);
+  display: inline-block;
+  transform: translateX(535px);
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Raleway";
+}
+
+#card-2 {
+  transform: translate(430px, -180px);
+  width: 1500px;
+
+  background-color: rgba(49, 51, 49, 0.601);
+  color: white;
+
+  border: rgb(255, 255, 255) solid 2px;
+  padding: 30px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+}
+
+#help {
+  transform: translateX(90px);
+}
+
+#team {
+  color: yellow;
+  font-family: "Lobster", cursive;
+  transform: translateX(180px);
+  font-weight: 200px;
+}
+
+#ch-logo {
+  transform: translate(250px, -80px);
+  width: 150px;
+}
+
+#Sammanoy {
+  padding: 10px;
+  margin: 2%;
+  transform: translateY(-80px);
+  font-family: "Raleway";
+}
+
+#Rakteem {
+  transform: translate(500px, -640px);
+  padding: 10px;
+  margin: 2%;
+  font-family: "Raleway";
+}
+
+#Sayak {
+  float: right;
+  transform: translateY(-1230px);
+  padding: 10px;
+  margin: 2%;
+  font-family: "Raleway";
+}
+
+#sayak-2 {
+  height: 275px;
+}
+
+#Team {
+  margin: 0%;
+  display: inline-block;
+}
+
+#footer {
+  padding: 20px;
+}
+
+.f-1,
+.f-2 {
+  color: white;
+  font-family: "Raleway";
+  font-size: 20px;
+}
+
+.f-1:hover,
+.f-2:hover {
+  color: white;
+  text-shadow: 0px 0px 5px red;
+  transition: 0.6s;
+}
+
+.media,
+.media-2,
+.media-3 {
+  color: white;
+}
+.media:hover {
+  transition: 0.7s;
+  color: blue;
+  opacity: 0.5;
+}
+.media-2:hover {
+  transition: 0.7s;
+  color: magenta;
+  opacity: 0.5;
+}
+.media-3:hover {
+  transition: 0.7s;
+  color: aqua;
+  opacity: 0.5;
+}
+.social {
+  float: right;
+  transform: translateY(-10px);
+}

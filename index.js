@@ -14,7 +14,7 @@ if(closeButton)
         navList.classList.remove("show");
     })
 }
-const navItems = document.querySelectorAll(".nav-item");
+const navItems = document.querySelectorAll(".navItem");
 for(var i=0;i<navItems.length;i++)
 {
     navItems[i].addEventListener("click", ()=>{
@@ -22,3 +22,15 @@ for(var i=0;i<navItems.length;i++)
     })
 }
 
+const weHelpButton= document.getElementById("weHelp");
+weHelpButton.addEventListener("click", ()=>{
+    const furtherOption= document.getElementById("further");
+    furtherOption.classList.add("showDrop");
+});
+const navItem_1 = document.querySelectorAll(".dropList");
+for(var i=0;i<navItem_1.length;i++)
+{
+    navItem_1[i].addEventListener("click", ()=>{
+        navList.classList.remove("show");
+    })
+}
